@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:/Users/Asus/Desktop/apache-maven-3.6.0-bin/apache-maven-3.6.0/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="9"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="user.language" value="tr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,10 +62,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="com.mycompany.app.AppTest" name="testNull" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testFound" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testNotFound" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testEmptyArray" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testDiffrentIndex" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testSmallStrLength" time="0"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testNull" time="0"/>
 </testsuite>
